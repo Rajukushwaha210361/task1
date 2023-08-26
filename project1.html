@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Landing Page</title>
+    <style>
+        .body {
+            background-image: url("image6.jpeg");
+            background-size: 100%;
+            height: 720px;
+            width: 1457px;
+            background-repeat: no-repeat;
+        }
+
+        .navbar {
+
+            font-weight: bold;
+            color: rgb(14, 12, 12);
+            border: 5px solidaquamarine;
+            background-color: aquamarine;
+            border-radius: 30px;
+            height: 60px;
+            position: sticky;
+            top: 0;
+            z-index: 5;
+
+        }
+
+        .litag {
+            font-size: 30px;
+            display: inline;
+            padding-right: 90px;
+            padding-inline: 65px;
+            position: relative;
+            top: 10px;
+        }
+
+        li:hover {
+            color: red;
+            background-color: blue;
+            border-radius: 20px;
+            height: 30px;
+        }
+
+        .div1 {
+            position: relative;
+            top: 50px;
+        }
+
+        .h1a {
+            color: rgb(233, 94, 7);
+            font-size: 80px;
+            position: relative;
+            left: 400px;
+            top: 20px;
+            display: inline-block;
+            background-color: rgb(193, 173, 191);
+            width: 700px;
+            height: 110px;
+            text-align: center;
+            z-index: 1;
+            border-radius: 40px;
+
+        }
+
+        .div2 {
+            border: 3px solid rgb(24, 197, 240);
+            ;
+            color: red;
+            display: inline-block;
+            background-color: rgb(24, 197, 240);
+            height: 300px;
+            width: 800px;
+            border-radius: 20px;
+            position: relative;
+            top: 80px;
+            left: 400px;
+
+        }
+
+        .b {
+            background-color: rgb(219, 219, 228);
+            /* color: aqua; */
+            border-radius: 30px;
+
+        }
+
+        input[target='in'] {
+            padding: 20px;
+            margin: 20px;
+            background-color: aquamarine;
+        }
+
+        input[target='regi'] {
+            font-size: 40px;
+            border-radius: 15px;
+            background-color: rgb(12, 19, 221);
+            color: rgb(54, 200, 28);;
+        }
+        button:hover{
+            background-color: rgb(224, 28, 28);
+        }
+
+        .div4 {
+            position: relative;
+            top: -25px;
+            left: 70px;
+            font-size: 40px;
+            
+
+        }
+
+        .div3 {
+            position: relative;
+            left: 50px;
+            font-size: 20px;
+
+        }
+        .sec2 {
+            background-image: url("image3.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+             height: 720px;
+            width: 1457px;
+            
+
+        }
+
+        .div5 {
+            color: rgb(248, 241, 241);
+            font-size: 60px;
+            border: 5px solid red;
+            display: inline;
+            background-color: red;
+            border-radius: 30px;
+            position: relative;
+            left: 400px;
+            top: 40px;
+        }
+        .info{
+            color: rgb(4, 0, 255);
+            font-size: 40px;
+            border: 4px solid rgb(140, 109, 169);
+            display: inline-block;
+            width: 800px;
+            height: 400px;
+            margin-left:400px;
+            margin-top:100px;
+            border-radius: 30px;
+            background-color: rgb(140, 109, 169);
+        }
+        input[target='to'] {
+            font-size: 40px;
+            border-radius: 15px;
+            background-color: rgb(185, 187, 229);
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        .register{
+            font-size:40px;
+            color: rgb(54, 200, 28);
+            background-color: blue;
+            position: relative;
+            top: 40px;
+            left: 150px;
+            width: 300px;
+        }
+        .search{
+            font-size:40px;
+            color: rgb(54, 200, 28);
+            background-color: blue;
+            position: relative;
+            top: 100px;
+            left: -200px;
+            width: 300px;
+        }
+        button{
+            border-radius: 40px;
+
+        }
+        .searchbar{
+            font-size: 23px;
+            border-radius: 30px;
+            border-color: aqua;
+            padding-bottom:5px;
+        }
+    .ser{
+        font-size: 30px;
+        position: relative;
+        left: 970px;
+        top:-25px;
+        width: 450px;
+    }
+    .searchbar:hover{
+        background-color: rgb(175, 175, 214);
+        color: red;
+    }
+    
+           
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="ultag">
+            <li class="litag a">Home</li>
+            <!-- <li class="litag ">Menu</li> -->
+            <li class="litag">Service</li>
+            <li class="litag c">Contact us</li>
+            <li class="litag d">About us</li>
+            <div class="ser">
+            Search : <input type="search" placeholder="search Here" class="searchbar" target="ser">
+            </div>
+        </ul>
+    </nav>
+    <div class="body">
+        <div class="div1">
+            <h1 class="h1a">
+                Travel Agency
+            </h1>
+        </div>
+        <div class="div2">
+            <form action="">
+                <div class="div3">
+                    Name : <input type="text" name="a1" class="b1 b" target="in">
+                    Mobile Number : <input type="number" name="a1" class=" b b2" target="in">
+                    <br>
+                    <br>
+                    Email : <input type="email" name="a1" class="b3 b" target="in">
+                    Address : <input type="text" name="a1" class=" b b4" target="in">
+                </div>
+                <div class="div4">
+                    <button class="register">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div class="sec2">
+        <div>
+            <h1 class="div5">Enter some Inforamation</h1>
+        </div>
+        <div class="info">
+            <form action="">
+                Form : <input type="text" class="too" target="to"> <br>
+                Destination : <input type="text" class="too" target="to"><br>
+                Date : <input type="date" name="Date" id="da" class="too" target="to">
+                <button class="search">Search</button>
+            </form>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
